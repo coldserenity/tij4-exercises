@@ -1,8 +1,8 @@
 package edu.coldserenity.tij.ch01.ex01;
 
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.junit.Assert;
+import org.junit.Test;
 
 public class IntCharVerifierTest {
     @Test
