@@ -1,7 +1,5 @@
 package edu.coldserenity.tij.ch02.ex10;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-
 /**
  * Exercise 10: (3)
  * Write a program with two constant values:
