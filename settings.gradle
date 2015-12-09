@@ -1,4 +1,5 @@
 rootProject.name = 'tij4-excercises'
 
 include '01-everything-is-an-object'
+include '02-operators'
 
