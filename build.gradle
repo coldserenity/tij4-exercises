@@ -14,6 +14,7 @@ subprojects {
     dependencies {
         testCompile 'junit:junit:4.12'
         testCompile 'com.github.stefanbirkner:system-rules:1.15.0'
+        testCompile 'com.tngtech.java:junit-dataprovider:1.10.2'
     }
 
 }
