@@ -5,4 +5,5 @@ include '02-operators'
 include '03-controlling-execution'
 include '04-initialization-and-cleanup'
 include '05-access-control'
+include '06-reusing-classes'
 
