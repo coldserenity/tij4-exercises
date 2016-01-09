@@ -1,37 +1,10 @@
 package edu.coldserenity.tij.ch05.ex11;
 
-class Cleanser {
-    private String s = "Cleanser";
-
-    public void append(String a) {
-        s += a;
-    }
-
-    public void dilute() {
-        append(" dilute()");
-    }
-
-    public void apply() {
-        append(" apply()");
-    }
-
-    public void scrub() {
-        append(" scrub()");
-    }
-
-    public String toString() {
-        return s;
-    }
-
-    public static void main(String[] args) {
-        Cleanser x = new Cleanser();
-        x.dilute();
-        x.apply();
-        x.scrub();
-        System.out.println(x);
-    }
-}
-
+/**
+ * Exercise 11: (3)
+ * <p/>
+ * Modify Detergent.java so that it uses delegation.
+ */
 public class Detergent {
 
     private final Cleanser cleanser = new Cleanser();
@@ -75,3 +48,37 @@ public class Detergent {
     }
 
 }
+
+class Cleanser {
+    private String s = "Cleanser";
+
+    public void append(String a) {
+        s += a;
+    }
+
+    public void dilute() {
+        append(" dilute()");
+    }
+
+    public void apply() {
+        append(" apply()");
+    }
+
+    public void scrub() {
+        append(" scrub()");
+    }
+
+    public String toString() {
+        return s;
+    }
+
+    public static void main(String[] args) {
+        Cleanser x = new Cleanser();
+        x.dilute();
+        x.apply();
+        x.scrub();
+        System.out.println(x);
+    }
+}
+
+
