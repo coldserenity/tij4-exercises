@@ -1,5 +1,28 @@
 package edu.coldserenity.tij.ch05.ex20;
 
+/**
+ * Exercise 20: (1)
+ *
+ * Show that @Override annotation solves the problem in this section.
+ */
+public class FinalOverridingIllusion {
+    public static void main(String[] args) {
+        OverridingPrivate2 op2 = new OverridingPrivate2();
+        op2.f();
+        op2.g();
+// You can upcast:
+        OverridingPrivate op = op2;
+// But you can’t call the methods:
+//! op.f();
+//! op.g();
+// Same here:
+        WithFinals wf = op2;
+//! wf.f();
+//! wf.g();
+    }
+}
+
+
 class WithFinals {
     // Identical to "private" alone:
     private final void f() {
@@ -39,22 +62,5 @@ class OverridingPrivate2 extends OverridingPrivate {
     //@Override
     public void g() {
         System.out.println("OverridingPrivate2.g()");
-    }
-}
-
-public class FinalOverridingIllusion {
-    public static void main(String[] args) {
-        OverridingPrivate2 op2 = new OverridingPrivate2();
-        op2.f();
-        op2.g();
-// You can upcast:
-        OverridingPrivate op = op2;
-// But you can’t call the methods:
-//! op.f();
-//! op.g();
-// Same here:
-        WithFinals wf = op2;
-//! wf.f();
-//! wf.g();
     }
 }
