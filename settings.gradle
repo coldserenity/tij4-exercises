@@ -7,4 +7,5 @@ include '04-initialization-and-cleanup'
 include '05-access-control'
 include '06-reusing-classes'
 include '07-polymorphism'
+include '08-interfaces'
 
