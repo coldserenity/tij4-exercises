@@ -1,4 +1,4 @@
-package edu.coldserenity.tij.ch08.ex25;
+package edu.coldserenity.tij.ch09.ex24;
 
 /**
  * The common methods for any control event.

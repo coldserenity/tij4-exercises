@@ -1,4 +1,4 @@
-package edu.coldserenity.tij.ch08.ex20;
+package edu.coldserenity.tij.ch09.ex20;
 
 /**
  * Exercise 20: (1)

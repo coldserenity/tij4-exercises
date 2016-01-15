@@ -1,4 +1,4 @@
-package edu.coldserenity.tij.ch08.ex24;
+package edu.coldserenity.tij.ch09.ex24;
 
 import java.util.ArrayList;
 import java.util.List;

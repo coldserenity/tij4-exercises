@@ -1,4 +1,4 @@
-package edu.coldserenity.tij.ch08.ex25;
+package edu.coldserenity.tij.ch09.ex25;
 
 public class GreenhouseControls extends Controller {
     private boolean light = false;
