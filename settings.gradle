@@ -9,4 +9,5 @@ include '06-reusing-classes'
 include '07-polymorphism'
 include '08-interfaces'
 include '09-inner-classes'
+include '10-holding-your-objects'
 
